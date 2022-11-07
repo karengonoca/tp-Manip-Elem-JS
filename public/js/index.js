@@ -1,10 +1,10 @@
 let container = document.querySelector('.container');
-let subtitulo = document.querySelector('.subtitulo')
-let enlace = document.querySelector('a')
-let parrafos = document.querySelectorAll('p')
+let subtitulo = document.querySelector('.subtitulo');
+let enlace = document.querySelector('a');
+let parrafos = document.querySelectorAll('p');
 
 
-let nombre = prompt('Ingrese su nombre')
+let nombre = prompt('Ingrese su nombre');
 
 if (!nombre) {
     subtitulo.textContent += 'invitado'
@@ -31,3 +31,4 @@ parrafos.forEach((parrafo, index) => {
 });
 
 container.style.display = 'block'
+

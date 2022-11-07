@@ -1,12 +1,16 @@
 
-let tituloP = document.querySelector('h1')
+let titulo = document.querySelector('h1')
 let seccion = document.querySelector('section')
 let articulo = document.querySelector('article')
 
-tituloP.textContent += 'AGREGAR PELICULAS'
+titulo.textContent += 'AGREGAR PELICULAS'
 
-tituloP.classList.add('titulo')
+titulo.classList.add('titulo')
 
 articulo.classList.add('fondoTransparente')
 
 seccion.classList.add('fondoCRUD')
+
+titulo.addEventListener('mouseover', ()=>{
+    titulo.style.color = 'red'
+})
